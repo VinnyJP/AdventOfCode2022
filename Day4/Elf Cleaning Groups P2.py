@@ -22,8 +22,6 @@ for line in lines:
     runc = incrementer(int(c[0]), int(c[1]))
     if runb & runc:
         pairs += 1
-    elif runc & runb:
-        pairs += 1
     else:
         continue
 
